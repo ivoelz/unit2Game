@@ -1,0 +1,20 @@
+body {
+    background-color: #92A8D1;
+    color: #34568B;
+    text-align: center;
+    font-family: sans-serif, Arial, "Times New Roman";
+}
+
+#draw {
+    display: none;
+}
+
+img {
+    border: 6px solid #34568B;
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(1.25);
+}
+
